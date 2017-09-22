@@ -1,0 +1,29 @@
+<% include ../partials/header.ejs %>
+
+<div class="jumbotron">
+  <div class="container">
+    <h1>Vendors Market</h1>
+  <p id="headline">These are the vendors!</p>
+  </div>   
+</div>
+
+<div class="col-md-12 text-center">
+    <a id="addvendor" type="button" href="/vendors/new" class="btn btn-primary">Add Vendor</a>
+</div>
+
+<div class="row">
+    <% vendors.forEach(function(Vendor) { %>
+      <div class="col-sm-6 col-lg-4 vendor">
+        <div class="container">
+          <h3><%= Vendor.name %></h3>
+          <p><%= Vendor.description %></p>
+        </div>
+
+        <div class="thumbnail">
+          <img src="<%= Vendor.image %>" />
+        </div>
+      </div>
+    <% }) %>
+  </div>
+
+<% include ../partials/footer.ejs %>

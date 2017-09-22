@@ -1,0 +1,26 @@
+{
+  "name": "market-place",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "mongoose": "^4.9.5",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulapbpb/Market-Place.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulapbpb/Market-Place/issues"
+  },
+  "homepage": "https://github.com/paulapbpb/Market-Place#readme"
+}
